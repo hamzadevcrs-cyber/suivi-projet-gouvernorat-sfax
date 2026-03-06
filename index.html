@@ -813,7 +813,7 @@ function openMod(d){
     <div class="mfield"><div class="mf-label">القطاع</div><div class="mf-val accent">${d.secteur||'—'}</div></div>
     <div class="mfield"><div class="mf-label">المعتمدية</div><div class="mf-val">${d.delegation||'—'}</div></div>
     <div class="mfield"><div class="mf-label">التكلفة (م.د)</div><div class="mf-val gold">${d.cout>0?Math.round(d.cout).toLocaleString()+' م.د':'—'}</div></div>
-    <div class="mfield"><div class="mf-label">مدة التنفيذ</div><div class="mf-val">${d.duree>0?d.duree+' شهر':'—'}</div></div>
+    <div class="mfield"><div class="mf-label">مدة التنفيذ</div><div class="mf-val">${d.duree>0?d.duree:'—'}</div></div>
     <div class="mfield"><div class="mf-label">مصدر التمويل</div><div class="mf-val">${d.source||'—'}</div></div>
     <div class="mfield"><div class="mf-label">المسافة (كم)</div><div class="mf-val">${d.km>0?d.km:'—'}</div></div>
     <div class="mfield full">
